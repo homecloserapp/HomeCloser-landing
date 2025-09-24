@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HomeCloser – Prioriza clientes calientes</title>
+  <meta name="description" content="HomeCloser prioriza tus leads y te dice qué hacer HOY para cerrar más operaciones.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="header container">
+    <div class="brand">
+      <img src="assets/logo.svg" alt="HomeCloser" class="logo"/>
+      <span class="brand-name">HomeCloser</span>
+    </div>
+    <nav class="nav">
+      <a href="#como-funciona">Cómo funciona</a>
+      <a href="#precios">Precios</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a class="btn btn-primary" href="#demo">Solicitar demo</a>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <h1>¿Cuántos clientes calientes perdiste este mes?</h1>
+        <p>HomeCloser prioriza tus leads y te dice qué hacer <strong>HOY</strong> para cerrar más operaciones: llamar, agendar visita o enviar propuesta. Con razones visibles, sin cambiar tu forma de trabajar.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="#demo">Quiero cerrar más ventas</a>
+          <a class="btn btn-ghost" href="#como-funciona">Ver cómo funciona</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="card">
+          <div class="card-header">Dashboard — Prioridades de hoy</div>
+          <ul class="lead-list">
+            <li>
+              <div class="lead-main">
+                <span class="lead-name">Ana Pérez</span>
+                <span class="lead-score good">87</span>
+              </div>
+              <div class="lead-meta">2ª visita · intención de ofertar · encaje de precio</div>
+              <a href="#" class="pill">Llamar ahora</a>
+            </li>
+            <li>
+              <div class="lead-main">
+                <span class="lead-name">Luis García</span>
+                <span class="lead-score medium">74</span>
+              </div>
+              <div class="lead-meta">1ª visita · solicita documentos</div>
+              <a href="#" class="pill">Enviar documentos</a>
+            </li>
+            <li>
+              <div class="lead-main">
+                <span class="lead-name">María López</span>
+                <span class="lead-score low">68</span>
+              </div>
+              <div class="lead-meta">Respuesta &lt; 2 h · encaje de zona</div>
+              <a href="#" class="pill">Proponer 2ª visita</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Metrics -->
+  <section class="metrics">
+    <div class="container metrics-grid">
+      <div class="metric"><div class="val">+20%</div><div class="lab">de leads convertidos en visitas</div></div>
+      <div class="metric"><div class="val">+30%</div><div class="lab">de velocidad de cierre</div></div>
+      <div class="metric"><div class="val">+2</div><div class="lab">operaciones extra/mes por agente</div></div>
+    </div>
+  </section>
+
+  <!-- Cómo funciona -->
+  <section id="como-funciona" class="how container">
+    <h2>Cómo funciona</h2>
+    <div class="how-grid">
+      <div class="how-card">
+        <h3>1. Conecta tus leads</h3>
+        <p>CSV, Google Sheets, formularios o alias de email. Validamos contacto y deduplicamos.</p>
+      </div>
+      <div class="how-card">
+        <h3>2. Scoring automático</h3>
+        <p>Señales: respuestas, visitas, intención y encaje. Decaimiento por inactividad.</p>
+      </div>
+      <div class="how-card">
+        <h3>3. Actúa con foco</h3>
+        <p>Acciones claras: llamar, agendar visita o enviar propuesta. Panel de ROI por agente.</p>
+      </div>
+    </div>
+    <div class="center">
+      <a class="btn btn-primary" href="#demo">Solicitar demo gratuita</a>
+    </div>
+  </section>
+
+  <!-- Social proof -->
+  <section class="social container">
+    <blockquote>“Desde que usamos HomeCloser, no hemos vuelto a perder un cliente caliente. El sistema nos avisa y actuamos a tiempo.”</blockquote>
+    <div class="quote-src">Agencia Central · Madrid</div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="precios" class="pricing">
+    <div class="container">
+      <h2>Precios simples</h2>
+      <p class="sub">Empieza en días. Cancela cuando quieras. Sin proyectos largos.</p>
+      <div class="pricing-grid">
+        <div class="plan">
+          <h3>Básico</h3>
+          <div class="price">199€ <span>/mes</span></div>
+          <ul>
+            <li>Scoring de leads y razones visibles</li>
+            <li>Ranking y acciones diarias por agente</li>
+            <li>Ingesta por CSV/Sheets y email alias</li>
+          </ul>
+          <a class="btn btn-primary" href="#demo">Empezar</a>
+        </div>
+        <div class="plan plan-pro">
+          <div class="badge">Recomendado</div>
+          <h3>Pro</h3>
+          <div class="price">399€ <span>/mes</span></div>
+          <ul>
+            <li>Agentes ilimitados</li>
+            <li>Notificaciones in-app y email</li>
+            <li>Matching cliente → propiedad</li>
+            <li>Panel de métricas y ROI</li>
+          </ul>
+          <a class="btn btn-contrast" href="#demo">Reservar demo Pro</a>
+        </div>
+        <div class="plan">
+          <h3>Enterprise</h3>
+          <div class="price custom">A medida</div>
+          <ul>
+            <li>SSO, SLA y seguridad avanzada</li>
+            <li>Integraciones personalizadas</li>
+            <li>Soporte prioritario</li>
+          </ul>
+          <a class="btn btn-ghost" href="#contacto">Hablar con ventas</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="faq container">
+    <h2>Preguntas frecuentes</h2>
+    <details open>
+      <summary>¿Necesito cambiar mi CRM actual?</summary>
+      <p>No. Nos integramos por CSV/Sheets, formulario y alias de email. Más integraciones en plan Pro/Enterprise.</p>
+    </details>
+    <details>
+      <summary>¿Cómo decide a quién llamar primero?</summary>
+      <p>Scoring basado en señales: respuesta, visitas, intención, encaje y decaimiento por inactividad.</p>
+    </details>
+    <details>
+      <summary>¿Qué ROI puedo esperar?</summary>
+      <p>Clientes típicos reportan +20% en visitas y +30% en velocidad de cierre. Con 2 ventas extra/mes el retorno suele ser &gt;×10.</p>
+    </details>
+    <details>
+      <summary>¿Cómo integro HomeCloser con mi web?</summary>
+      <p>Formularios embebidos o API según plan. Te ayudamos en la puesta en marcha.</p>
+    </details>
+  </section>
+
+  <!-- CTA final -->
+  <section id="demo" class="cta container">
+    <div class="cta-box">
+      <div>
+        <h3>Reserva tu demo gratuita</h3>
+        <p>En 24 h te contactamos para agendar. Sin compromiso.</p>
+      </div>
+      <form onsubmit="return false;" class="demo-form">
+        <label>Email
+          <input type="email" placeholder="tu@agencia.com" required />
+        </label>
+        <label>Nombre (opcional)
+          <input type="text" placeholder="Tu nombre" />
+        </label>
+        <button class="btn btn-primary" type="submit">Solicitar demo</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="brand">
+        <img src="assets/logo.svg" alt="HomeCloser" class="logo"/>
+        <span class="brand-name">HomeCloser</span>
+      </div>
+      <div class="copy">© 2025 HomeCloser · Todos los derechos reservados</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
